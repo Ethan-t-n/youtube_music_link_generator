@@ -7,14 +7,14 @@ Ever wanted to explore random music using a ruby program? If so, this is just th
 [<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white"/>](https://www.ruby-lang.org/en/) <br>
 
 ### 🎵 Local Setup 🎵
-1. Fork and clone the repo to your local machine with SSH: `git@github.com:Ethan-t-n/youtube_music_link_generator.git`
-2. Open your terminal and go into the youtube_music_link_generator directory 
-3. Install gems by running `gem install google-api-client` in your terminal
-4. Change into the lib directory
+1. Fork and clone the repo to your local machine with SSH: `git@github.com:Ethan-t-n/youtube_music_link_generator.git`.
+2. Open your terminal and go into the youtube_music_link_generator directory.
+3. Install gems by running `gem install google-api-client` in your terminal.
+4. Change into the lib directory.
 5. Register for your [YouTube API key](console.cloud.google.com). IMPORTANT: Registering for your YouTube API key instructions will be down below. 
-6. Run `ruby gem install google-api-client`
-7. Run `rspec` to see test results
-8. run `ruby random_youtube_music.rb` to generate random music link
+6. Run `ruby gem install google-api-client`(Please complete registering for YouTube API Key steps down below before moving on to steps 7 and 8).
+7. Run `rspec` to see test results as well as randomized link.
+8. copy randomized link and paste it into your browser.
 
 ### 🎵 Registering for your YouTube API key 🎵
 1. Go to the Google Cloud Console.
