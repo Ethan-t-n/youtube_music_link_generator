@@ -14,7 +14,7 @@ describe 'random_youtube_music_link' do
   end
 
   it 'returns a video that is categorized as "Music"' do
-    search_response = @youtube.list_searches('id,snippet', q: '', type: 'video', video_category_id: '10', order: 'relevance', max_results: 50)
+    search_response = @youtube.list_searches('id,snippet', q: '', type: 'video', video_category_id: '10', order: 'relevance', max_results: 70)
     videos = search_response.items.select {|item| item.id.kind == 'youtube#video'}
     video_ids = videos.map(&:id).map(&:video_id)
 
