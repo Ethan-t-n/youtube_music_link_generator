@@ -27,3 +27,6 @@ Ever wanted to explore random music using a ruby program? If so, this is just th
 8. Once the API is enabled, click on the "Create Credentials" button to create your API key.
 9. Select "API key" from the dropdown menu and follow the prompts to create your key.
 10. Copy the API key, go into the terminal and run `export YOUTUBE_API_KEY=paste_your_api_key_in_here` 
+
+❗️ Future updates ❗️
+Planning on letting users generate a random link by genre of music.
