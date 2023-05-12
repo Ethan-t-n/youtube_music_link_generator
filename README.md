@@ -12,7 +12,7 @@ Ever wanted to explore random music using a ruby program? If so, this is just th
 3. Install gems by running `gem install google-api-client` in your terminal.
 4. Change into the lib directory.
 5. Register for your [YouTube API key](console.cloud.google.com). IMPORTANT: Registering for your YouTube API key instructions will be down below. 
-6. Run `ruby gem install google-api-client`(Please complete registering for YouTube API Key steps down below before moving on to steps 7 and 8).
+6. Stop here(Please complete registering for YouTube API Key steps down below before moving on to steps 7 and 8).
 7. Run `rspec` to see test results as well as randomized link.
 8. copy randomized link and paste it into your browser.
 
