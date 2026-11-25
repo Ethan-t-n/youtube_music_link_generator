@@ -9,3 +9,6 @@
 .worktrees/
 .security-key
 logs/security/
+
+# Local environment variables
+.env
