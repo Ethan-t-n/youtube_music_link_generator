@@ -1,0 +1,11 @@
+.devstation/
+.agent-code/
+.auto-claude/
+
+# DevStation generated files
+.devstation-security.json
+.devstation-status
+.claude_settings.json
+.worktrees/
+.security-key
+logs/security/
