@@ -3,7 +3,7 @@ require 'rspec'
 require 'google/apis/youtube_v3'
 require './lib/random_youtube_music'
 
-describe 'random_youtube_music_link' do
+RSpec.describe 'random_youtube_music_link' do
   before(:all) do
     @youtube = Google::Apis::YoutubeV3::YouTubeService.new
     @youtube.key = ENV['YOUTUBE_API_KEY']
