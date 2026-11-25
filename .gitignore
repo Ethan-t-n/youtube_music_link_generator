@@ -1,0 +1,3 @@
+# DevStation data directory
+.devstation/
+.env

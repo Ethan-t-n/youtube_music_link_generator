@@ -1,3 +1,4 @@
+require 'dotenv/load'
 require 'rspec'
 require 'google/apis/youtube_v3'
 require './lib/random_youtube_music'
